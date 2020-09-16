@@ -228,7 +228,10 @@
 			$("#save-submission-div").show();
 		}
 	};
+
 	var tenants;
+	var projectName = $('#project-name').val();
+
 	function saveProject(){
 		if(type === "hybrid" || type === "corporate"){
 			tenants = companies;
@@ -242,11 +245,30 @@
 	$.post("/save-project",{
 		//$.post("https://evening-forest-73830.herokuapp.com/save-project",{
 
+			name: projectName,
+			//row1
 			tenants: tenants,
 			floors: floors,
-			type: type
+			type: type,
+			//row2 variables
+			basements : basements,
+			parking : parking,
+			occupants : occupants,
+			cages : cages,
+			activity : activity,
+		
+			//row3 variables
+			columns : columns,
+			shafts : shafts,
+			elevators: elevators,
+			//totals
+			totalMat: totalMatString,
+			fee: feeString,
+			total: totalString
 			},
-			function(line){//callback
+
+			
+			function(project){//callback
 				pricePerShaftString = line.pricePerShaftString;
 				totalMatString = line.totalMatString;
 				feePercent = line.feePercent;
