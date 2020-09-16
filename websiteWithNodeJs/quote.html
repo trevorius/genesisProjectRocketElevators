@@ -334,61 +334,68 @@
 				<!--/total-->
 
             </div>
-            
+			
+			
             <!-- /quotation form-->
 
-			<div id="save-submission-div" class="hidden show-with-total">
-				<input id="project-name" type="text" maxlength="30" placeholder="PROJECT NAME">
-				<button type="button" id="save">save</button>
-			</div>
-			<div class="hidden show-on-save">
-				<p>your Project number is <span id="project-number"></span></p>
-			</div>
-			<div>
-				<input type="number" placeholder="project-number" value="" >
-				<button type="button" id="load">load</button>
+			<!-- database save and search -->
+			<section id="database">
+				<div id="save-submission-div" class="hidden show-with-total">
+					<input id="project-name" type="text" maxlength="30" placeholder="PROJECT NAME">
+					<button type="button" id="save">save</button>
+				</div>
+				<div class="hidden show-on-save">
+					<p>your Project number is <span id="project-number"></span></p>
+				</div>
+				<div>
+					<input type="number" placeholder="project-number" value="" >
+					<button type="button" id="load">load</button>
 
 
-			</div>
-			<div class="row">
-			<div id="project-name-div" class="col-md-2 hidden show2">
-				<p>project name : <span id="loaded-name"></span></p>
-			</div>
-				<div id="loaded-type-div" class="col-md-2 hidden show2">
-					<p>building type : <span id="loaded-type"></span></p>
 				</div>
-				<div id="tenants-div" class="col-md-2 hidden show2">
-					<p>tenants : <span id="loaded-tenants"></span></p>
+				<div class="row">
+				<div id="project-name-div" class="col-md-2 hidden show2">
+					<p>project name : <span id="loaded-name"></span></p>
 				</div>
-				<div id="loaded-stories-div" class="col-md-2 hidden show2">
-					<p>floors : <span id="loaded-floors"></span></p>
+					<div id="loaded-type-div" class="col-md-2 hidden show2">
+						<p>building type : <span id="loaded-type"></span></p>
+					</div>
+					<div id="tenants-div" class="col-md-2 hidden show2">
+						<p>tenants : <span id="loaded-tenants"></span></p>
+					</div>
+					<div id="loaded-stories-div" class="col-md-2 hidden show2">
+						<p>floors : <span id="loaded-floors"></span></p>
+					</div>
+					<div id="loaded-basements-div" class="col-md-2 hidden show2">
+						<p>basements : <span id="loaded-basements"></span></p>
+					</div>
+					<div id="loaded-parking-div" class="col-md-2 hidden show-corp">
+						<p>parking : <span id="loaded-parking"></span></p>
+					</div>
+					<div id="loaded-occupants-div" class="col-md-2 hidden show-corp">
+						<p>occupants : <span id="loaded-occupants"></span></p>
+					</div>
+					<div id="loaded-cages-div" class="col-md-2 hidden show-com">
+						<p>cages: <span id="loaded-cages"></span></p>
+					</div>	
+					<div id="loaded-activity-div" class="col-md-2 hidden show-com">
+						<p>hours of activity: <span id="loaded-activity"></span></p>
+					</div>
+					<div id="loaded-line-div" class="col-md-2 hidden show2">
+						<p>selected line: <span id="loaded-line"></span></p>
+					</div>
+					<div id="loaded-totalmat-div" class="col-md-2 hidden show2">
+						<p>total material costs: <span id="loaded-totalmat"></span></p>
+					</div>
+					<div id="loaded-fee-div" class="col-md-2 hidden show2">
+						<p>instalation fee: <span id="loaded-fee"></span></p>
+					</div>
+					<div id="loaded-total-div" class="col-md-2 hidden show2">
+						<p>TOTAL: <span id="loaded-total"></span></p>
+					</div>
 				</div>
-				<div id="loaded-basements-div" class="col-md-2 hidden show2">
-					<p>basements : <span id="loaded-basements"></span></p>
-				</div>
-				<div id="loaded-parking-div" class="col-md-2 hidden show-corp">
-					<p>parking : <span id="loaded-parking"></span></p>
-				</div>
-				<div id="loaded-occupants-div" class="col-md-2 hidden show-corp">
-					<p>occupants : <span id="loaded-occupants"></span></p>
-				</div>
-				<div id="loaded-cages-div" class="col-md-2 hidden show-com">
-					<p>cages: <span id="loaded-cages"></span></p>
-				</div>
-				<div id="loaded-line-div" class="col-md-2 hidden show2">
-					<p>selected line: <span id="loaded-line"></span></p>
-				</div>
-				<div id="loaded-totalmat-div" class="col-md-2 hidden show2">
-					<p>total material costs: <span id="loaded-totalmat"></span></p>
-				</div>
-				<div id="loaded-fee-div" class="col-md-2 hidden show2">
-					<p>instalation fee: <span id="loaded-fee"></span></p>
-				</div>
-				<div id="loaded-total-div" class="col-md-2 hidden show2">
-					<p>TOTAL: <span id="loaded-total"></span></p>
-				</div>
-			</div>
-
+			</section>
+			<!-- /database save and search -->
 			
 			
 
@@ -478,7 +485,8 @@
 
 
 <script src="assets/js/scripts.js"></script>
-<script src="assets/js/quote.js"></script>
+<!--script src="assets/js/quote.js"></script-->
+<script src="assets/js/quote-local.js"></script>
 
 
 <!-- PAGE LEVEL SCRIPTS [cart js] -->
