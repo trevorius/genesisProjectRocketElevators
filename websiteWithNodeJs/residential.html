@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Rocket Elevators - making buildings seem smaller...</title>
+		<link rel="icon" href="assets/images/elevatorPics/R2.png" type="image/x-icon"> 
+<!--icon can be cut to only show picto-->
+		<meta name="description" content="Rocket Elevators, making buildings smaller. Is fictitious elevator construction company this is what would be there site..." />
+		<meta name="Author" content="Dorin Grigoras [www.stepofweb.com]" />
+
+		<!-- mobile settings -->
+		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+		<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+
+		<!-- WEB FONTS : use %7C instead of | (pipe) -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
+
+		<!-- CORE CSS -->
+		<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+		<!-- REVOLUTION SLIDER -->
+		<link href="assets/plugins/slider.revolution/css/extralayers.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/slider.revolution/css/settings.css" rel="stylesheet" type="text/css" />
+
+		<!-- THEME CSS -->
+		<link href="assets/css/essentials.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
+
+		<!-- PAGE LEVEL SCRIPTS -->
+		<link href="assets/css/header-1.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/color_scheme/blue.css" rel="stylesheet" type="text/css" id="color_scheme" />
+	</head>
+
+	<!--AVAILABLE BODY CLASSES:
+		
+		smoothscroll 			= create a browser smooth scroll
+		enable-animation		= enable WOW animations
+
+		bg-grey					= grey background
+		grain-grey				= grey grain background
+		grain-blue				= blue grain background
+		grain-green				= green grain background
+		grain-blue				= blue grain background
+		grain-orange			= orange grain background
+		grain-yellow			= yellow grain background
+		
+		boxed 					= boxed layout
+		pattern1 ... patern11	= pattern background
+		menu-vertical-hide		= hidden, open on click
+		
+		BACKGROUND IMAGE [together with .boxed class]
+		data-background="assets/images/_smarty/boxed_background/1.jpg"
+	-->
+	<body class="smoothscroll enable-animation  ">
+
+		
+		<!-- wrapper -->
+		<div id="wrapper">
+
+			<!-- AVAILABLE HEADER CLASSES
+
+				Default nav height: 96px
+				.header-md 		= 70px nav height
+				.header-sm 		= 60px nav height
+
+				.b-0 		= remove bottom border (only with transparent use)
+				.transparent	= transparent header
+				.translucent	= translucent header
+				.sticky			= sticky header
+				.static			= static header
+				.dark			= dark header
+				.bottom			= header on bottom
+				
+				shadow-before-1 = shadow 1 header top
+				shadow-after-1 	= shadow 1 header bottom
+				shadow-before-2 = shadow 2 header top
+				shadow-after-2 	= shadow 2 header bottom
+				shadow-before-3 = shadow 3 header top
+				shadow-after-3 	= shadow 3 header bottom
+
+				.clearfix		= required for mobile menu, do not remove!
+
+				Example Usage:  class="clearfix sticky header-sm transparent b-0"
+			-->
+			<div id="header" class="navbar-toggleable-md sticky clearfix">
+
+				<!-- TOP NAV -->
+				<header id="topNav">
+					<div class="container">
+
+						<!-- Mobile Menu Button -->
+						<button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
+							<i class="fa fa-bars"></i>
+						</button>
+
+						<!-- Logo -->
+						<a class="logo float-left scrollTo" href="#top">
+							<img src="assets/images/elevatorPics/R2.png" alt="company logo" />
+						</a>
+
+						<!-- Top Nav 
+							
+							AVAILABLE CLASSES:
+							submenu-dark = dark sub menu
+						-->
+						<div class="navbar-collapse collapse float-right nav-main-collapse submenu-dark">
+							<nav class="nav-main">
+
+								<!-- 
+									.nav-onepage
+									Required for onepage navigation links
+									
+									Add .external for an external link!
+								-->
+								<ul id="topMain" class="nav nav-pills nav-main nav-onepage">
+									<li class="active"><!-- HOME -->
+										<a href="homepage.html">
+											HOME
+										</a>
+									</li>
+									<li><!-- SERVICES -->
+										<a href="homepage.html#services">
+											SERVICES
+										</a>
+									</li>
+									<li><!-- WORK -->
+										<a href="homepage.html#work">
+											PORTFOLIO
+										</a>
+									</li>
+									<li><!-- NEWS -->
+										<a href="homepage.html#news">
+											NEWS
+										</a>
+									</li>
+									<li><!-- CLIENTS -->
+										<a href="homepage.html#clients">
+											CLIENTS
+										</a>
+									</li>
+									<li><!-- CONTACT -->
+										<a href="homepage.html#contact">
+											CONTACT
+										</a>
+									</li>
+								</ul>
+
+							</nav>
+						</div>
+
+					</div>
+				</header>
+				<!-- /Top Nav -->
+
+			</div>
+
+
+			<!-- PAGE HEADER 
+				
+				CLASSES:
+					.page-header-xs	= 20px margins
+					.page-header-md	= 50px margins
+					.page-header-lg	= 80px margins
+					.page-header-xlg= 130px margins
+					.dark			= dark page header
+
+					.shadow-before-1 	= shadow 1 header top
+					.shadow-after-1 	= shadow 1 header bottom
+					.shadow-before-2 	= shadow 2 header top
+					.shadow-after-2 	= shadow 2 header bottom
+					.shadow-before-3 	= shadow 3 header top
+					.shadow-after-3 	= shadow 3 header bottom
+			-->
+			<section class="page-header page-header-xs dark">
+				<div class="container">
+
+					<h1>RESIDENTIAL</h1>
+
+					<!-- breadcrumbs -->
+					<ol class="breadcrumb dark">
+						<li><a href="homepage.html">Home</a></li>
+						<li><a href="corporate.html">Corporate</a></li>
+						<li><a href="quote.html">Quote</a></li>
+						
+					</ol><!-- /breadcrumbs -->
+
+				</div>
+			</section>
+			<!-- /PAGE HEADER -->
+
+
+
+
+			<!--intro -->
+			<section>
+				<div class="container">
+
+					<div class="row">
+					
+						<div class="col-lg-4 col-md-4 col-sm-4">
+							<figure class="mb-20">
+								<img class="img-fluid" src="assets/images/elevatorPics/R201.jpg" alt="service" />
+							</figure>
+
+							<h4 class="mb-0">WHY Rocket Elevators?</h4>
+							<small class="font-lato fs-18 mb-30 block">Using local contractors we see the importance of local economies</small>
+							<p class="text-muted fs-14">weather you need to renovate or replace an obsolete apparatus or are building a completely new infrastructure; our three step process 
+								will  bring your idea to life.
+							</p>
+
+							<a href="#why-us">
+								Read
+								<!-- /word rotator -->
+								<span class="word-rotator" data-delay="2000">
+									<span class="items">
+										<span>more</span>
+										<span>now</span>
+									</span>
+								</span><!-- /word rotator -->
+								<i class="glyphicon glyphicon-menu-right fs-12"></i>
+							</a>
+						</div>
+
+						<div class="col-lg-4 col-md-4 col-sm-4">
+							<figure class="mb-20">
+								<img class="img-fluid" src="assets/images/elevatorPics/AdobeStock_162479912.jpeg" alt="service" />
+							</figure>
+
+							<h4 class="mb-0">OUR MISSION</h4>
+							<small class="font-lato fs-18 mb-30 block">To be the best of the best</small>
+							<p class="text-muted fs-14">making buildings seem smaller isn't just a slogan, it's our manifesto. Our sleek luxurious cabins will take you to the top and beyond.</p>
+							
+							<a href="#mission">
+								Read
+								<!-- /word rotator -->
+								<span class="word-rotator" data-delay="2000">
+									<span class="items">
+										<span>more</span>
+										<span>now</span>
+									</span>
+								</span><!-- /word rotator -->
+								<i class="glyphicon glyphicon-menu-right fs-12"></i>
+							</a>
+						</div>
+
+						<div class="col-lg-4 col-md-4 col-sm-4">
+							<figure class="mb-20">
+								<img class="img" width=50% src="assets/images/elevatorPics/stair-lift-1808512_1280.jpg" alt="service" />
+							</figure>
+
+							<h4 class="mb-0">We Are Here To Help</h4>
+							<small class="font-lato fs-18 mb-30 block">We have many solutions to your problems</small>
+							<p class="text-muted fs-14">With client satisfaction at the top of our priorities we will always find a solution to your problem ; within the limits of your project parameters.<br>
+							</p>
+
+							<a href="#ext-int">
+								Read
+								<!-- /word rotator -->
+								<span class="word-rotator" data-delay="2000">
+									<span class="items">
+										<span>more</span>
+										<span>now</span>
+									</span>
+								</span><!-- /word rotator -->
+								<i class="glyphicon glyphicon-menu-right fs-12"></i>
+							</a>
+						</div>
+
+					</div>
+
+				</div>
+			</section>
+			<!-- /intro -->
+
+
+			
+
+
+			<!-- why us-->
+			<section>
+				<div class="container">
+
+					<header class="text-center" id="why-us">
+						<h2 class="m-0">Why Us</h2>
+						<p class="font-lato fs-20 m-0">With our manufacturing facilities here in Canada and local installation  teams you will truly be supporting your local communities and economy. think of the Future...</p>
+					</header>
+					
+					<div class="divider divider-center"><!-- divider -->
+						<i class="fa fa-chevron-down"></i>
+					</div>
+
+					<ul class="process-steps nav nav-tabs nav-justified mt-100">
+						<li class="nav-item">
+							<a class="nav-link active" href="#step1" data-toggle="tab">1</a>
+							<h5>planning</h5>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#step2" data-toggle="tab">2</a>
+							<h5>Canadian manufacturers</h5>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#step3" data-toggle="tab">3</a>
+							<h5>Local installation teams</h5>
+						</li>
+						
+					</ul>
+
+					<div class="tab-content mt-30">
+						<div class="tab-pane active" id="step1">
+							<strong>Planning</strong> once you have accepted your quote our architects will pay you a visit and help draw out the plans to bring your project to life.
+						</div>
+
+						<div class="tab-pane" id="step2">
+							<strong>Canadian Manufacturers</strong>  now the plans are done we will get to custom building your apparatus according to the specs you agreed on . we guarantee none of the parts will travel further than necessary.
+						</div>
+
+						<div class="tab-pane" id="step3">
+							<strong>local installation teams</strong> : throughout Canada we have local collaborators who will complete the installation and maintenance of our machines... we will never be more than a phone call away.
+						</div>
+
+						
+					</div>
+
+				</div>
+			</section>
+			<!-- /why us -->
+
+
+
+
+
+			<!-- PARALLAX -->
+			<section class="parallax parallax-2" style="background-image: url('assets/images/elevatorPics/AdobeStock_41696502.jpeg');">
+				<div class="overlay dark-5"><!-- dark overlay [1 to 9 opacity] --></div>
+
+				<div class="container">
+
+					<div class="text-center">
+						<h2 class="fs-40 fw-300">Lifting you up since 1976</h2>
+						<a class="btn btn-default btn-lg" href="quote.html">GET A QUOTE <i class="fa fa-angle-right"></i></a> 
+						
+						<a class="btn btn-blue btn-lg" href="homepage.html#contact">Contact us <i class="fa fa-angle-right"></i></a>
+					</div>
+
+				</div>
+
+			</section>
+			<!-- /PARALLAX -->
+
+
+
+
+
+
+			<!-- mission -->
+			<section id="mission">
+				<div class="container">
+				
+					<div class="row">
+
+						<div class="col-md-6 col-sm-6">
+							<header class="mb-60">
+								<h2 class="m-0" >Our Mission</h2>
+								<p class="font-lato fs-20 m-0">We truly care about our customers</p>
+							</header>
+
+							<p>We have been working together with our customers for more than 40 years. Listening to their comments and implementing new technologies to satisfy their requirements. so we really do Make buildings smaller...</p>
+
+							
+						</div>
+
+						<div class="col-md-6 col-sm-6">
+							<img class=img-fluid src="assets/images/elevatorPics/13655821333_5252e0fb78_w.jpg" width="547" height="300">
+						</div>
+
+					</div>
+
+				</div>
+			</section>
+			<!-- / mission-->
+
+			
+				<!-- PARALLAX -->
+				<section class="parallax parallax-2" style="background-image: url('assets/images/elevatorPics/AdobeStock_41696502.jpeg');">
+					<div class="overlay dark-5"><!-- dark overlay [1 to 9 opacity] --></div>
+
+					<div class="container">
+
+						<div class="text-center">
+							<h2 class="fs-40 fw-300">Lifting you up since 1976</h2>
+						<a class="btn btn-default btn-lg" href="quote.html">GET A QUOTE <i class="fa fa-angle-right"></i></a> 
+							
+							<a class="btn btn-blue btn-lg" href="homepage.html#contact">Contact us <i class="fa fa-angle-right"></i></a>
+						</div>
+
+					</div>
+
+				</section>
+				<!-- /PARALLAX -->
+
+
+			<!-- here to help-->
+			<section id=ext-int>
+				<div class="container">
+				
+					<div class="row">
+
+						<div class="col-md-6 col-sm-6">
+							<header class="mb-60">
+								<h2 class="m-0">We Are Here To Help</h2>
+								<p class="font-lato fs-20 m-0">Our many different options will surely cover all your needs </p>
+							</header>
+
+							<p>We take pride in our long list of satisfied customers... No matter how hard your problem to solve we have  the perfect fit. If you need a stair lift to be able to appreciate your upstairs once again we have many models. Or if you are in charge of maintenance of a big residential tower, the sky is literally the limit.</p>
+
+						</div>
+
+						<div class="col-md-6 col-sm-6">
+							<img class="img-fluid" src="assets/images/elevatorPics/elevator-926058_1920.jpg" >
+						</div>
+
+					</div>
+
+				</div>
+			</section>
+			<!-- / here to help-->
+
+
+
+
+			<!-- BUTTON CALLOUT -->
+			<a href="quote.html" class="btn btn-xlg btn-primary fs-20 fullwidth m-0 rad-0 p-40">
+				<span class="font-lato fs-30">
+					Want to know more?
+					<strong>get a quote today! &raquo;</strong>
+				</span>
+			</a>
+			<!-- /BUTTON CALLOUT -->
+
+
+
+
+			<!-- FOOTER -->
+			<footer id="footer">
+				<div class="container">
+
+
+					<div class="row">
+
+						<!-- col #1 -->
+						<div class="col-md-8">
+
+							<h3 class="letter-spacing-1">WHY US?</h3>
+
+							<!-- Small Description -->
+							<p>
+								We take your personal or business needs to heart and will work with you every step of the way from stairs to elevators. <br> 
+								Making your building seem smaller.
+							</p>
+							<h2>(581)-701-0303</h2>
+						</div>
+						<!-- /col #1 -->
+
+						<!-- col #2 -->
+						<div class="col-md-4">
+							<h3 class="letter-spacing-1">KEEP IN TOUCH</h3>
+
+							<!-- Newsletter Form -->
+							<p>Subscribe to Our Newsletter to get Important News & Offers</p>
+
+							<form class="validate" action="php/newsletter.php" method="post" data-success="Subscribed! Thank you!" data-toastr-position="bottom-right">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+									<input type="email" id="email" name="email" class="form-control required" placeholder="Enter your Email">
+									<span class="input-group-btn">
+										<button class="btn btn-success" type="submit">Subscribe</button>
+									</span>
+								</div>
+							</form>
+							<!-- /Newsletter Form -->
+
+
+						</div>
+						<!-- /col #2 -->
+
+					</div>
+
+
+				</div>
+
+				<div class="copyright">
+					<div class="container">
+<!--						<ul class="float-right m-0 list-inline mobile-block">
+							<li><a href="#">Terms &amp; Conditions</a></li>
+							<li>&bull;</li>
+							<li><a href="#">Privacy</a></li>
+						</ul> -->
+						&copy; All Rights Reserved, Rocket elevators LTD
+					</div>
+				</div>
+
+			</footer>
+			<!-- /FOOTER -->
+
+		</div>
+		<!-- /wrapper -->
+
+
+		<!-- SCROLL TO TOP -->
+		<a href="#" id="toTop"></a>
+
+
+		
+
+		<!-- JAVASCRIPT FILES -->
+		<script>var plugin_path = 'assets/plugins/';</script>
+		<script src="assets/plugins/jquery/jquery-3.3.1.min.js"></script>
+
+		<script src="assets/js/scripts.js"></script>
+		
+		
+		<!-- PAGE LEVEL SCRIPTS [cart js] -->
+		<script>
+			
+
+				
+		</script>
+
+	</body>
+</html>
